@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 // Desafio Super Trunfo - Países
+// Nível Mestre - Cálculo do Super Poder e Comparação de Cartas
 
 int main()
 {
@@ -102,7 +103,7 @@ int main()
     printf("ÁREA (km²): %.2f\n", areaCarta1);
     printf("PIB: %.2f\n", pibCarta1);
     printf("PONTOS TURÍSTICOS: %d\n", pontosTurCarta1);
-    printf("DENSIDADE POPULACIONAL: %.2f \n", densidade1);
+    printf("DENSIDADE POPULACIONAL: %.4f \n", densidade1);
     printf("PIB PER CAPITA: %.4f \n", pibPerCapita1);
     printf("SUPER PODER: %.2f \n", superPoder1); // Exibição do Super Poder
 
@@ -115,7 +116,7 @@ int main()
     printf("ÁREA (km²): %.2f\n", areaCarta2);
     printf("PIB: %.2f\n", pibCarta2);
     printf("PONTOS TURÍSTICOS: %d\n", pontosTurCarta2);
-    printf("DENSIDADE POPULACIONAL: %.2f \n", densidade2);
+    printf("DENSIDADE POPULACIONAL: %.4f \n", densidade2);
     printf("PIB PER CAPITA: %.4f \n", pibPerCapita2);
     printf("SUPER PODER: %.2f \n", superPoder2); // Exibição do Super Poder
 
